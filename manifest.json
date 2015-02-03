@@ -1,0 +1,11 @@
+{
+    "manifest_version":         2,
+    "content_scripts":          [ {
+        "js":       [ "iframeInjector.js","jquery.min.js" ],
+        "matches":  [   "https://www.facebook.com/*"
+        ]
+    } ],
+    "description":              "Inject a complete, premade web page",
+    "name":                     "Inject whole web page",
+    "version":                  "1"
+}
