@@ -9,6 +9,12 @@ function main(){
            $(this).remove();
        }
     });
+	$('.ego_section').each(function(){
+       if($(this).text().toUpperCase().indexOf(txt.toUpperCase()) != -1){
+           $(this).remove();
+       }
+    });	
+	
 }
 
 

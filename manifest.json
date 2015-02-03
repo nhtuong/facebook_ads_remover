@@ -1,11 +1,15 @@
 {
     "manifest_version":         2,
     "content_scripts":          [ {
-        "js":       [ "iframeInjector.js","jquery.min.js" ],
+        "js":       [ "fb.ads.remover.js","jquery.min.js" ],
         "matches":  [   "https://www.facebook.com/*"
         ]
     } ],
-    "description":              "Inject a complete, premade web page",
-    "name":                     "Inject whole web page",
-    "version":                  "1"
+	"icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+    "description":              "Remove all Sponsored posts from Facebook feed",
+    "name":                     "Facebook Ads Remover",
+	"author": 					"Tuong Nguyen",
+    "version":                  "1.3"
 }
